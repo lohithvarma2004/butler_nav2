@@ -43,7 +43,7 @@ params_file:=/home/lohithvarma2004/assignment/src/mobile_dd_robot/config/nav2_pa
 ### 4. Run Butler Manager Script
 In a separate terminal:
 ```bash
-ros2 run mobile_dd_robot butler_manager_nav2
+ros2 run mobile_dd_robot butler_manager_nav2.py
 ```
 
 ---
