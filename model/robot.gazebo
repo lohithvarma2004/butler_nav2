@@ -46,6 +46,9 @@
       </range>
     </ray>
     <plugin name="lidar" filename="libgazebo_ros_ray_sensor.so">
+      <ros>
+        <remapping>/lidar/out:=/scan</remapping>  
+      </ros>
       <output_type>sensor_msgs/LaserScan</output_type>
       <frame_name>laser_frame</frame_name>
     </plugin>
