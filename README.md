@@ -94,25 +94,6 @@ Watch the full working demo here:
 
 ---
 
-## 📁 Repo Structure
-
-Based on the GitHub repository: [https://github.com/lohithvarma2004/butler_nav2.git](https://github.com/lohithvarma2004/butler_nav2.git)
-
-```
-mobile_dd_robot/
-├── config/
-│   └── nav2_params.yaml
-├── launch/
-│   ├── gazebo_mode.launch.py
-│   └── robot_launch.py
-├── maps/
-│   ├── my_map.yaml
-│   └── my_map.pgm
-├── src/
-│   └── butler_manager_nav2.py (and other custom nodes)
-├── worlds/
-│   └── restaurant.world
-```
 
 ---
 
