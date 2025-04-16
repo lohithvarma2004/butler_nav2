@@ -31,7 +31,7 @@ ros2 launch mobile_dd_robot gazebo_mode.launch.py
 ```bash
 ros2 launch nav2_bringup localization_launch.py use_sim_time:=true \
 params_file:=/home/lohithvarma2004/assignment/src/mobile_dd_robot/config/nav2_params.yaml \
-map:=/home/lohithvarma2004/assignment/src/mobile_dd_robot/maps/my_map.yaml
+map:=/home/lohithvarma2004/assignment/src/mobile_dd_robot/config/my_map.yaml
 ```
 
 ### 3. Launch Navigation
